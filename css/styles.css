@@ -1,0 +1,157 @@
+/* 
+
+992 px (porcentagens para definir a largura e use a propriedade 'float',use border-box)
+768 px e 991 px
+767 px
+
+1 titulo
+3 secoes (na mesma linha, texto) 
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+@media only screen and (min-width: 992px) {
+
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .none {
+        display: none;
+    }
+    .title {
+        text-align: center;
+        padding: 30px;
+    }
+    .content{
+        background-color: aliceblue;
+        color: black;
+        border: solid 2px black;
+        float: left;
+        width: 30.2%;
+        box-sizing: border-box;
+        margin: 15px;
+        height: auto;
+    }
+    .content p{
+        clear: right;
+        padding: 10px;
+    }
+    .content span{
+        color: black;
+        border: solid 1px black;
+        padding: 5px 50px;
+        float: right;
+    }
+    .one span{
+        background-color: black;
+        color: white;
+    }
+    .two span{
+        background-color: black;
+        color: white;
+    }
+    .three span{
+        background-color: black;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .none {
+        display: none;
+    }
+    .title {
+        text-align: center;
+        padding: 30px;
+    }
+    .content{
+        background-color: aliceblue;
+        color: black;
+        border: solid 2px black;
+        float: left;
+        width:46.8%;
+        box-sizing: content-box;
+        height: auto;
+        margin: 10px;
+    }
+    .three{
+        width: 96.4%;
+    }
+    .content p{
+        clear: right;
+        padding: 10px;
+    }
+    .content span{
+        color: black;
+        border: solid 1px black;
+        padding: 5px 50px;
+        float: right;
+    }
+    .one span{
+        background-color: black;
+        color: white;
+    }
+    .two span{
+        background-color: black;
+        color: white;
+    }
+    .three span{
+        background-color: black;
+        color: white;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) { 
+
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .title {
+        text-align: center;
+        padding: 30px;
+    }
+    .content{
+        background-color: aliceblue;
+        color: black;
+        border: solid 2px black;
+        float: left;
+        width:80%;
+        box-sizing: content-box;
+        height: auto;
+        margin: 10px 40px;
+    }
+    .content p{
+        clear: right;
+        padding: 10px;
+    }
+    .content span{
+        color: black;
+        border: solid 1px black;
+        padding: 5px 50px;
+        float: right;
+    }
+    .one span{
+        background-color: black;
+        color: white;
+    }
+    .two span{
+        background-color: black;
+        color: white;
+    }
+    .three span{
+        background-color: black;
+        color: white;
+    }
+    
+}
+
